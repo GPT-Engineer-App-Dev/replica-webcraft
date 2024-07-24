@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
+import { Heart, Twitter, Github, Discord, Youtube, Linkedin } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -85,11 +85,11 @@ const Index = () => {
           </div>
         </div>
         <div className="flex justify-center space-x-6 mt-12">
-          <span>X</span>
-          <span>GitHub</span>
-          <span>Discord</span>
-          <span>YouTube</span>
-          <span>LinkedIn</span>
+          <Twitter className="w-6 h-6" />
+          <Github className="w-6 h-6" />
+          <Discord className="w-6 h-6" />
+          <Youtube className="w-6 h-6" />
+          <Linkedin className="w-6 h-6" />
         </div>
       </footer>
     </div>
