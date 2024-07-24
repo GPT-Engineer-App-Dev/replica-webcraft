@@ -38,9 +38,8 @@ const Index = () => {
             We're building software that builds software. Our <span className="underline">vision</span> is to unlock
             human creativity — by enabling anyone to create software.
           </p>
-          <div className="flex items-center mb-8">
-            <img src="https://lovable.dev/gptengineer.svg" alt="GPTEngineer" className="w-6 h-6 mr-2" />
-            <span>GPTEngineer</span>
+          <div className="mb-8">
+            <img src="https://lovable.dev/gptengineer.svg" alt="GPTEngineer" className="w-10 h-10 mx-auto" />
           </div>
           <h2 className="text-2xl font-semibold mb-8">It starts with an AI software engineer.</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl">
