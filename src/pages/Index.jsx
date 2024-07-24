@@ -32,19 +32,30 @@ const Index = () => {
 
         {/* Main Content */}
         <main className="flex flex-col items-center justify-center text-center px-4 py-16">
-          <div className="w-32 h-32 bg-gradient-to-br from-green-400 via-blue-500 to-yellow-400 rounded-full mb-8"></div>
+          <div className="w-32 h-32 mb-8">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="url(#paint0_linear)" />
+              <defs>
+                <linearGradient id="paint0_linear" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#4ADE80" />
+                  <stop offset="0.5" stopColor="#3B82F6" />
+                  <stop offset="1" stopColor="#FACC15" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
           <h1 className="text-4xl font-bold mb-4">The last piece of software.</h1>
           <p className="max-w-2xl mb-12">
             We're building software that builds software. Our <span className="underline">vision</span> is to unlock
             human creativity — by enabling anyone to create software.
           </p>
           <div className="mb-8">
-            <img src="https://lovable.dev/gptengineer.svg" alt="GPTEngineer" className="w-10 h-10 mx-auto" />
+            <img src="https://lovable.dev/gptengineer.svg" alt="GPTEngineer" className="w-[100px] h-[100px] mx-auto" />
           </div>
           <h2 className="text-2xl font-semibold mb-8">It starts with an AI software engineer.</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl">
             {['For Everyone', 'For Developers', 'For Agencies'].map((title, index) => (
-              <div key={index} className="bg-gray-900 p-6 rounded-lg">
+              <div key={index} className="bg-black p-6 rounded-lg border border-gray-700">
                 <h3 className="text-xl font-semibold mb-4 flex items-center justify-between">
                   {title}
                   <span>&gt;</span>
