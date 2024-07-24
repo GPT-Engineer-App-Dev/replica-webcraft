@@ -21,6 +21,9 @@ const Index = () => {
           </nav>
         </header>
 
+        {/* Separator */}
+        <div className="border-t border-gray-800"></div>
+
         {/* Main Content */}
         <main className="flex flex-col items-center justify-center text-center px-4 py-16">
           <div className="w-32 h-32 bg-gradient-to-br from-green-400 via-blue-500 to-yellow-400 rounded-full mb-8"></div>
