@@ -8,7 +8,7 @@ const Index = () => {
         {/* Header */}
         <header className="flex justify-between items-center p-4">
           <div className="flex items-center">
-            <Heart className="w-6 h-6 mr-2" />
+            <Heart className="w-6 h-6 mr-2 fill-white" />
             <span className="font-semibold">lovable</span>
           </div>
           <nav>
@@ -33,7 +33,7 @@ const Index = () => {
             human creativity — by enabling anyone to create software.
           </p>
           <div className="flex items-center mb-8">
-            <Heart className="w-6 h-6 mr-2" />
+            <img src="https://lovable.dev/gptengineer.svg" alt="GPTEngineer" className="w-6 h-6 mr-2" />
             <span>GPTEngineer</span>
           </div>
           <h2 className="text-2xl font-semibold mb-8">It starts with an AI software engineer.</h2>
@@ -59,7 +59,7 @@ const Index = () => {
       <footer className="bg-black text-white p-8">
         <div className="flex justify-between items-start max-w-6xl mx-auto">
           <div className="flex items-center">
-            <Heart className="w-6 h-6 mr-2" />
+            <Heart className="w-6 h-6 mr-2 fill-white" />
             <span className="font-semibold">lovable</span>
           </div>
           <div className="flex space-x-16">
